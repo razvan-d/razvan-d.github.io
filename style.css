@@ -64,7 +64,7 @@ body    {
     align-items: center;
     grid-gap: 10px;
     grid-template-columns: 500px;
-    margin: 0px; */
+    margin: 0px;
     padding-top: 2vh;
 }
 
@@ -163,3 +163,17 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+.results__heading {
+      font-size: 110%;
+      justify-content: center;
+    }
+    
+.results__display-wrapper {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: color-lightest;
+      border: 1px solid color-gray-light;
+      overflow-x: scroll;
+      width: 50%;
+    }
+  
