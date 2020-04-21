@@ -43,14 +43,7 @@ body    {
 } */
 
 /*CSS pentru cover red zone*/
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 10vh;
-    background: #658BA1;
-    color: white;
-}
+
 
 .grid-wrapper {
     display: grid;
@@ -137,6 +130,16 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background: #658BA1;
+  color: white;
 }
 
 .container {
